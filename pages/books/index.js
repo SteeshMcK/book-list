@@ -1,3 +1,5 @@
+import styles from '../../styles/Books.module.css'
+
 const Books = () => {
     return (
         <div>
