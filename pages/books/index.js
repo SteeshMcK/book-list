@@ -1,4 +1,5 @@
 import styles from '../../styles/Books.module.css'
+import Head from 'next/head'
 
 const Books = () => {
     return (

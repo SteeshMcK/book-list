@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <h1>Book List</h1>
+                <Image src ='/books.jfif' width={277} height={182} />
             </div>
             <Link href='/'><a>Home</a></Link>
             <Link href='/about'><a>About</a></Link>
